@@ -1,0 +1,13 @@
+id: ec1ef57aece341dbb759eae283e28c8d
+parent_id: 
+item_type: 1
+item_id: 5a089558991d4024a3e9298de348a58d
+item_updated_time: 1646016697264
+title_diff: "[{\"diffs\":[[1,\"3b891ce29f1d4aeba8b8aaa180c12b3f\"]],\"start1\":0,\"start2\":0,\"length1\":0,\"length2\":32}]"
+body_diff: "[{\"diffs\":[[1,\"id: 3b891ce29f1d4aeba8b8aaa180c12b3f\\\r\\\nparent_id: d2dc83f066b443e9ada0d0a0e826f97c\\\r\\\nitem_type: 1\\\r\\\nitem_id: 01486f29b7234446b32b135f3bf5c6cc\\\r\\\nitem_updated_time: 1642695971332\\\r\\\ntitle_diff: \\\"[{\\\\\\\"diffs\\\\\\\":[[0,\\\\\\\"NbtScan\\\\\\\"],[1,\\\\\\\" & enum4linux\\\\\\\"]],\\\\\\\"start1\\\\\\\":0,\\\\\\\"start2\\\\\\\":0,\\\\\\\"length1\\\\\\\":7,\\\\\\\"length2\\\\\\\":20}]\\\"\\\r\\\nbody_diff: \\\"[{\\\\\\\"diffs\\\\\\\":[[1,\\\\\\\"# NBTSCAN\\\\\\\\\\\\\n\\\\\\\\\\\\\n> \\\\\\\"],[0,\\\\\\\"sudo nbt\\\\\\\"]],\\\\\\\"start1\\\\\\\":0,\\\\\\\"start2\\\\\\\":0,\\\\\\\"length1\\\\\\\":8,\\\\\\\"length2\\\\\\\":21},{\\\\\\\"diffs\\\\\\\":[[0,\\\\\\\"UDP/137)\\\\\\\"],[1,\\\\\\\"\\\\\\\\\\\\\n\\\\\\\\\\\\\n# <ins>Enum4Linux</ins>\\\\\\\\\\\\\n\\\\\\\\\\\\\n![05e442cbdbfa8c2d750adbdea6b4fc0a.png](:/fb4c97a763704c1bb50d801b2e0be1c2)\\\\\\\\\\\\\n\\\\\\\\\\\\\nGets Userlist and their groups, detect if host is in a workgroup, password policy retrieval (using poleenum), RID cycling\\\\\\\\\\\\\n\\\\\\\\\\\\\n> enum4linux -a -o -d -v 192.168.1.200 > smb/enumlinux.txt\\\\\\\\\\\\\n\\\\\\\\\\\\\nCan run the python version for lesser issues: enum4linuxpy\\\\\\\\\\\\\n\\\\\\\\\\\\\npython ~/tools/Enum4LinuxPy/Enum4LinuxPy.py -t &lt;ip&gt; -a\\\\\\\"]],\\\\\\\"start1\\\\\\\":71,\\\\\\\"start2\\\\\\\":71,\\\\\\\"length1\\\\\\\":8,\\\\\\\"length2\\\\\\\":415}]\\\"\\\r\\\nmetadata_diff: {\\\"new\\\":{},\\\"deleted\\\":[]}\\\r\\\nencryption_cipher_text: \\\r\\\nencryption_applied: 0\\\r\\\nupdated_time: 2022-01-23T15:10:30.443Z\\\r\\\ncreated_time: 2022-01-23T15:10:30.443Z\\\r\\\ntype_: 13\"]],\"start1\":0,\"start2\":0,\"length1\":0,\"length2\":1147}]"
+metadata_diff: {"new":{"id":"5a089558991d4024a3e9298de348a58d","parent_id":"fb73d1d872ce4ee6ab184091f1e4c67b","latitude":"0.00000000","longitude":"0.00000000","altitude":"0.0000","author":"","source_url":"","is_todo":0,"todo_due":0,"todo_completed":0,"source":"joplin-desktop","source_application":"net.cozic.joplin-desktop","application_data":"","order":1646016697253,"markup_language":1,"is_shared":0,"share_id":"","conflict_original_id":"","master_key_id":""},"deleted":[]}
+encryption_cipher_text: 
+encryption_applied: 0
+updated_time: 2022-02-28T02:54:22.682Z
+created_time: 2022-02-28T02:54:22.682Z
+type_: 13

