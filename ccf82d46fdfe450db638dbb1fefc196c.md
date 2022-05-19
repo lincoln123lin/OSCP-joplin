@@ -18,16 +18,32 @@ UDP Scan - Will take a very long time -- last resort
 
 For a quicker and more accurate full scan (As -sV probing may not work) \[-sT = Connect() Scan\]
 
+> sudo nmap -p- -sT --reason --open -oA nmap/full-sT 10.11.1.72
+> 
 > sudo nmap -p- -sT --reason --open --dns-server \[REDACTED\] -oA nmap/full-sT 10.11.1.72
 
 ## Add DNS server
 
 > sudo nmap 10.11.1.72 -p- -sV --reason --dns-server $IP
 
+# Just do a scan to give open results
+
+> sudo nmap -A -p- --open -oA nmap-OpenPorts 10.11.1.1-254
+
+# UDP
+
+\# UDP Only
+
+> sudo nmap -sU -A --top-ports=20 -oA nmapUDP --version-all
+> 
+> \# Full scan will take ages; not recommended but use sS to speed it up
+> 
+> sudo nmap -sS -sU -A -p- -oA nmapUDPFull --version-all
+
 id: ccf82d46fdfe450db638dbb1fefc196c
 parent_id: 6b8d3e46660447279f5aee899ce00b64
 created_time: 2022-01-14T02:42:37.630Z
-updated_time: 2022-04-18T16:56:25.538Z
+updated_time: 2022-05-18T12:50:03.919Z
 is_conflict: 0
 latitude: 1.36730000
 longitude: 103.80140000
@@ -42,7 +58,7 @@ source_application: net.cozic.joplin-desktop
 application_data: 
 order: 1642128157630
 user_created_time: 2022-01-14T02:42:37.630Z
-user_updated_time: 2022-04-18T16:56:25.538Z
+user_updated_time: 2022-05-18T12:50:03.919Z
 encryption_cipher_text: 
 encryption_applied: 0
 markup_language: 1
